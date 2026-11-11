@@ -1,0 +1,10 @@
+# Midnight Makan - Python packages
+# Python 3.10 - 3.13: install with   pip install -r requirements.txt
+arcade==3.3.3
+numpy
+pillow
+opencv-python      # only for the optional webcam "pull" mode in Scene 3
+
+# Python 3.14: pymunk 6.9 (an Arcade dependency) has no ready-made wheel yet, so install with:
+#   pip install --no-deps arcade==3.3.3
+#   pip install "pyglet~=2.1.5" "pytiled-parser~=2.2.9" pymunk numpy pillow opencv-python
